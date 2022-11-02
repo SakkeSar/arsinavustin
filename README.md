@@ -1,4 +1,3 @@
-# arsinavustin
 <Window x:Class="WpfApplication1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -22,30 +21,3 @@
             <RadioButton x:Name="radioButton1_Copy" Content="Medium" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="radioButton1_Copy_Checked"/>
             <RadioButton x:Name="radioButton1_Copy1" Content="Large" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="radioButton1_Copy1_Checked"/>
             <RadioButton x:Name="radioButton1" Content="Small" HorizontalAlignment="Left"  VerticalAlignment="Top" Checked="radioButton1_Checked"/>
-
-        </StackPanel>
-        <Button x:Name="button" Content="Kumoa" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
-        <Canvas x:Name="paintcanvas" HorizontalAlignment="Left" Height="311" Margin="102,6,0,0" VerticalAlignment="Top" Width="411" RenderTransformOrigin="0.5,0.5" Background="White" MouseMove="paintcanvas_MouseMove" MouseLeftButtonDown="paintcanvas_MouseLeftButtonDown_1" MouseLeftButtonUp="paintcanvas_MouseLeftButtonUp_1">
-            <Canvas.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleX="0.49"/>
-                    <RotateTransform Angle="-0.907"/>
-                    <TranslateTransform X="-0.991"/>
-                </TransformGroup>
-            </Canvas.RenderTransform>
-            <Button x:Name="button1" Content="Tallenna" Canvas.Left="-93" Canvas.Top="240" Width="75" RenderTransformOrigin="0.5,0.5" Click="button1_Click">
-                <Button.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="0.627"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Button.RenderTransform>
-            </Button>
-        </Canvas>
-
-    </Grid>
-</Window>
-
