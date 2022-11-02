@@ -34,7 +34,7 @@
                     <TranslateTransform X="-0.991"/>
                 </TransformGroup>
             </Canvas.RenderTransform>
-            <Button x:Name="button1" Content="Tallenna" Canvas.Left="-93" Canvas.Top="240" Width="75" RenderTransformOrigin="0.5,0.5">
+            <Button x:Name="button1" Content="Tallenna" Canvas.Left="-93" Canvas.Top="240" Width="75" RenderTransformOrigin="0.5,0.5" Click="button1_Click">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -48,3 +48,4 @@
 
     </Grid>
 </Window>
+
